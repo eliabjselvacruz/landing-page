@@ -1,3 +1,12 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+  line-height: 1.45;
+}
+
 header {
   color: #FFF;
   background-color: #284b63;
@@ -39,7 +48,7 @@ h2 {
 }
 
 .container {
-  margin: o auto;
+  margin: 0 auto;
   padding: 0 20px 0 20px;
   max-width: 900px;
 }
@@ -56,3 +65,16 @@ h2 {
   cursor: pointer;
 }
 
+.btn:hover{
+  background: #468486;
+}
+
+.feature {
+  width: 32%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.feature img{
+  width: 40%;
+}
