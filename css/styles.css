@@ -163,4 +163,25 @@ footer li a:hover {
     margin-right: 20px;
   }
 
+  .quote {
+    padding: 30px 0;
+  }
+
+  blockquote p {
+    font-size: 18px;
+  }
+
+  blockquote cite {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 30px 0 10px 0;
+  }
+
+  footer li {
+    display: block;
+    margin: 5px 0;
+  }
+
 }
